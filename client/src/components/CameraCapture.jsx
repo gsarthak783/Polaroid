@@ -191,7 +191,7 @@ const CameraCapture = () => {
                 ref={videoRef}
                 autoPlay
                 className="w-full h-full object-cover"
-                style={{ filter: getCanvasFilter(filter) }}
+                style={{ filter: getCanvasFilter(filter),transform: "scaleX(-1)", }}
               />
             ) : (
               <div className="w-full h-full flex items-center justify-center bg-[#E6D5B8]">
